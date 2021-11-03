@@ -1,0 +1,21 @@
+{
+  "name": "AWS CDK",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "cdk",
+  "workspaceFolder": "/home/node/workspace",
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  },
+  "postCreateCommand": "brew install awscli",
+  "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
+  "remoteUser": "node",
+  "features": {
+    "git": "latest",
+    "github-cli": "latest",
+    "homebrew": "latest"
+  }
+}
